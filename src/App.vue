@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <button @click="$router.push('/')">Hello</button>
+    <button @click="$router.push('/world')">World</button>
+    <button></button>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
